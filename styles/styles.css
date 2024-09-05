@@ -1,7 +1,233 @@
-html{
-    background-color: #ffffff;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5vw;
 }
-.logo-size{
-  width: 219;
-  height: 36;
+.manus {
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+nav {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5vw;
+  /* background-color: aqua; */
+  align-items: center;
+}
+.nav-image {
+  width: 15vw;
+  height: auto;
+}
+.manus > p {
+  padding: 1vw 1vw;
+  border-radius: 0.8vw;
+  border: 1px solid black;
+}
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+.sec-1 {
+  width: 40vw;
+  margin-left: 5vw;
+}
+.sec-1 > h1 {
+  font-size: 3.3vw;
+  margin-bottom: 2.5vw;
+}
+.sec-1-button {
+  background-color: black;
+  color: white;
+  padding: 1vw 1vw;
+  border-radius: 0.8vw;
+  width: 15vw;
+  margin-top: 3vw;
+}
+.logo-line {
+  display: flex;
+  justify-content: center;
+  gap: 5.5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.bottum {
+  display: flex;
+  margin-bottom: 3vw;
+  margin-left: 7vw;
+}
+.green-button {
+  background-color: #b9ff66;
+  color: rgb(0, 0, 0);
+  font-size: 2.2vw;
+  padding: 0.5vw 1.3vw;
+  margin-right: 2vw;
+}
+.bottum > div > p {
+  margin-top: 0.7vw;
+}
+.two-boxes {
+  display: flex;
+  gap: 3vw;
+  justify-content: space-around;
+  margin-bottom: 4vw;
+}
+.box-1 {
+  border-radius: 1.8vw;
+  display: flex;
+  width: 37vw;
+  border: 1px solid black;
+  padding: 2vw;
+  background-color: #b9ff66;
+  box-shadow: 0px 3px 2px black;
+}
+.box-2 {
+  border-radius: 1.5vw;
+  display: flex;
+  width: 37vw;
+  border: 1px solid black;
+  padding: 2vw;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0px 3px 2px black;
+}
+.text-style-2 {
+  background-color: #b9ff66;
+}
+.text-style-1 {
+  background-color: rgb(255, 255, 255);
+}
+.card-image {
+  margin-left: 5vw;
+}
+.first-box {
+  padding: 4vw 2vw;
+  border-radius: 3vw;
+  border: 1px solid black;
+  box-shadow: 0px 4px 2px black;
+  background-color: #b9ff66;
+  width: 85vw;
+  margin: auto;
+  margin-bottom: 3vw;
+}
+.first-box > div {
+  display: flex;
+}
+.first-box > div > img {
+  margin-left: 55vw;
+}
+.first-box > div > p {
+  font-size: 3vw;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+hr {
+  height: 0.2vw;
+  background-color: black;
+  border: 0px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.next-boxes {
+  padding: 4vw 2vw;
+  border-radius: 3vw;
+  border: 1px solid black;
+  box-shadow: 0px 4px 2px black;
+  background-color: rgb(235, 235, 235);
+  width: 85vw;
+  margin: auto;
+  margin-bottom: 3vw;
+}
+.next-boxes > div {
+  display: flex;
+}
+.next-boxes > div > img {
+  margin-left: 55vw;
+}
+.next-boxes > div > p {
+  font-size: 3vw;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+form{
+  border-radius: 3vw;
+  background-color: rgb(231, 231, 231);
+  padding: 4.5vw;
+  width: 85vw;
+  margin: auto;
+  padding-right: 0px;
+}
+input{
+  border-radius: 1vw;
+  height: 4vw;
+  margin-bottom: 2vw;
+  border: 0.5px solid black;
+  padding: 1vw;
+  color: azure;
+  font-size: 1.2vw;
+}
+label{
+  margin-bottom: 0.8vw;
+
+}
+.input-sec{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+.form-image{
+  width: 40vw;
+  position: relative;
+  right: -19vw;
+}
+.input-messege{
+  height: 20vw;
+}
+.radios{
+  display: flex;
+  align-items: center;
+}
+.radio{
+  margin-bottom: 0.8vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  width: 2vw;
+}
+.form-button{
+  background-color: black;
+  color: white ;
+  border-radius: 1vw;
+  height: 4.5vw;
+  margin-bottom: 2vw;
+  width: 41vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  margin-top: 7vw;
+  background-color: black;
+  color: white;
+  width: 80vw;
+  margin-left: 15vw;
+  border-radius: 2vw;
+}
+.footer-nav{
+  display: flex;
+}
+.footer-manu{
+  display: flex;
+}
+.footer-icons{
+  display: flex;
+}
+.footer-box{
+  background-color: rgb(80, 80, 80);
+  padding: 1vw 6vw;
+  display: flex;
+  text-align: center;
 }
