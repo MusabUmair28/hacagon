@@ -231,3 +231,27 @@ footer{
   display: flex;
   text-align: center;
 }
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Space around the text */
+  text-align: center; /* Center align text */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for footer links */
+footer a {
+  color: #fff; /* White link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Optional: Adding some margin to separate footer text */
+.footer-content p {
+  margin: 10px 0;
+}
